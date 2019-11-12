@@ -232,8 +232,8 @@ public class Files
 	
 	/**
 	 * Reads the input file and, for each person listed, writes the average of their scores to the output file
-	 * @param from
-	 * @param to
+	 * @param from the file to read from
+	 * @param to the file to write to
 	 */
 	public void writeAveragesToFile(String from, String to)
 	{

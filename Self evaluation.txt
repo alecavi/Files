@@ -1,0 +1,17 @@
+During this assignment, I learned about Java functional programming and the 
+serialization mechanism. I needed to use the former to reuse code in the 
+most readable manner possible for the three methods that all require to read 
+text from a file and write text to another file, which led me to have a single 
+function performing read/write, and pass it a delegate to perform the 
+necessary operation on the lines as they are being read. This is probably the 
+part I am most pleased with, as it took me some time to figure out exactly how 
+to use functional interfaces, but at the same time passing a delegate seems 
+like the most natural solution possible to the problem.
+
+As for serialization, I used it to complete the last extra. I guess I could require 
+my objects to override toString() and write the result of that to a file, but, since 
+Java already provides a mechanism to save objects, it seemed unnecessary. 
+In writing the code for serialization/deserialization, I learned how to use 
+Object to accept any object as a function argument, and instanceof both to 
+make sure the object is serializable and to make sure the deserialized object 
+is, in fact, of the class I expect it to be before I typecast it. 
