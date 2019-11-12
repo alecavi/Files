@@ -2,7 +2,7 @@ package films;
 
 import java.io.Serializable;
 
-import main.Files;
+import files.Files;
 
 /**
  * The menu class used by the user to interact with a Collection

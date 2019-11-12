@@ -1,4 +1,4 @@
-package main;
+package files;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -201,7 +201,7 @@ public class Files
 	
 	/**
 	 * If the string matches the regex {@code \\w+\\s\\w+\\s(?:\\d+(?:\\s|$))+},
-	 * (one word, space, another word, space, any amount of integers separated either by
+	 * (one word, space, another word, space, any amount of integers all followed either by
 	 * spaces or by the end of the line/string)), formats it as if by {@code firstWord + "," secondWord + ":"
 	 * "The average score is" + averageOfNumbers}, with two decimal digits on the average, then prints and
 	 * returns the formatted string

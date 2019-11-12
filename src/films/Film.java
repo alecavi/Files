@@ -2,7 +2,7 @@ package films;
 
 import java.io.Serializable;
 
-import main.Files;
+import files.Files;
 
 /**
  * Represents a single file
